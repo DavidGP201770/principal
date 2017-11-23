@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="org_unitec_basedatos">
+                <file name="Principal" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.unitec.basedatos.PrincipalTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.unitec.basedatos//Principal//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="org">
+                <folder name="unitec">
+                    <folder name="basedatos">
+                        <file name="PrincipalTopComponent">
+                            <!--org.unitec.basedatos.PrincipalTopComponent-->
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//org_unitec_basedatos/Principal.instance"/>
+                        </file>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="org_unitec_basedatos">
+                <file name="Principal.instance">
+                    <!--org.unitec.basedatos.PrincipalTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.unitec.basedatos.PrincipalTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.unitec.basedatos.PrincipalTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="org-unitec-basedatos-PrincipalTopComponent.shadow">
+                <!--org.unitec.basedatos.PrincipalTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/org-unitec-basedatos-PrincipalTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="PrincipalTopComponent.settings">
+                <!--org.unitec.basedatos.PrincipalTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.unitec.basedatos.PrincipalTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="PrincipalTopComponent.wstcref">
+                    <!--org.unitec.basedatos.PrincipalTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="PrincipalTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="org-unitec-basedatos-PrincipalTopComponent.instance">
+                <!--org.unitec.basedatos.PrincipalTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="org.unitec.basedatos.PrincipalTopComponent"/>
+                <attr name="preferredID" stringvalue="PrincipalTopComponent"/>
+                <attr
+                    bundlevalue="org.unitec.basedatos.Bundle#CTL_PrincipalAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>
